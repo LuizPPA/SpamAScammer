@@ -16,9 +16,9 @@ exports.spam_scammer = functions.https.onRequest((request, response) => {
 
 	// Initialize firebase SDK
 	let firebase_config = {
-		apiKey: 'AIzaSyD1JhBVwCt6oYE95TZgTkJK_NfMd2wKbfM',
-		authDomain: 'spam-a-scammer.firebaseapp.com',
-		databaseURL: 'https://spam-a-scammer.firebaseio.com'
+		apiKey: 'your_api_key',
+		authDomain: 'your_auth_domain',
+		databaseURL: 'your_database_url'
 	}
 	try{
 		firebase.initializeApp(firebase_config)
